@@ -4,8 +4,8 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Oxford"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "19 Feb: FIXME"      # full street address of the first day of the workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-address2: "20 Feb: FIXME"      # full street address of the second day of the workshop 
+address: "FIXME"      # full street address of the first day of the workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address2: "FIXME"      # full street address of the second day of the workshop 
 country: "United Kingdom"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "FIXME"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -150,7 +150,7 @@ address.
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>Where on {{page.humandate}}:</strong>
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
@@ -158,7 +158,7 @@ address.
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
 </p>
 <p id="where2">
-  <strong>Where:</strong>
+  <strong>Where on {{page.humandate2}}:</strong>
   {{page.address2}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude2}}&mlon={{page.longitude2}}&zoom=16">OpenStreetMap</a>
