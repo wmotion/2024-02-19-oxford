@@ -4,11 +4,14 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Oxford"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "19 Feb: FIXME; 20 Feb: FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "19 Feb: FIXME"      # full street address of the first day of the workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address2: "20 Feb: FIXME"      # full street address of the second day of the workshop 
 country: "United Kingdom"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "FIXME"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "FIXME"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude2: "FIXME"        # decimal latitude of the second workshop venue (use https://www.latlong.net/)
+longitude2: "FIXME"       # decimal longitude of the second workshop venue (use https://www.latlong.net)
 humandate: "Feb 19-20, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm GMT"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-02-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -153,6 +156,14 @@ address.
   or
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
 </p>
+<p id="where2">
+  <strong>Where:</strong>
+  {{page.address2}}.
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latitude2}}&mlon={{page.longitude2}}&zoom=16">OpenStreetMap</a>
+  or
+  <a href="//maps.google.com/maps?q={{page.latitude2}},{{page.longitude2}}">Google Maps</a>.
+</p>
 {% elsif online == "true_public" %}
 <p id="where">
   <strong>Where:</strong>
@@ -176,6 +187,11 @@ This block displays the date and links to Google Calendar.
 <p id="when">
   <strong>When:</strong>
   {{page.humandate}}.
+  {% include workshop_calendar.html %}
+</p>
+<p id="when2">
+  <strong>When:</strong>
+  {{page.humandate2}}.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
