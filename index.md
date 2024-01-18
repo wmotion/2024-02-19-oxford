@@ -4,14 +4,14 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Oxford"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of the first day of the workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-address2: "FIXME"      # full street address of the second day of the workshop 
+address: "FIXME1"      # full street address of the first day of the workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address2: "FIXME2"      # full street address of the second day of the workshop 
 country: "United Kingdom"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "FIXME"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "FIXME"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-latitude2: "FIXME"        # decimal latitude of the second workshop venue (use https://www.latlong.net/)
-longitude2: "FIXME"       # decimal longitude of the second workshop venue (use https://www.latlong.net)
+latitude: "FIXME1"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "FIXME1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude2: "FIXME2"        # decimal latitude of the second workshop venue (use https://www.latlong.net/)
+longitude2: "FIXME2"       # decimal longitude of the second workshop venue (use https://www.latlong.net)
 humandate: "Feb 19, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humandate2: "Feb 20, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm GMT"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
