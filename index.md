@@ -9,7 +9,7 @@ address2: "Weston Library Lecture Theatre, Broad Street, OX1 3BG"      # full st
 country: "United Kingdom"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "51.7522849"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-1.2494562"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+longitude: "-1.2470927"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 latitude2: "51.7548201"        # decimal latitude of the second workshop venue (use https://www.latlong.net/)
 longitude2: "-1.254891"       # decimal longitude of the second workshop venue (use https://www.latlong.net)
 humandate: "Feb 19-20, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
