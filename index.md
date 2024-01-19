@@ -12,7 +12,8 @@ latitude: "51.752710"        # decimal latitude of workshop venue (use https://w
 longitude: "-1.251070"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 latitude2: "51.754250"        # decimal latitude of the second workshop venue (use https://www.latlong.net/)
 longitude2: "-1.257810"       # decimal longitude of the second workshop venue (use https://www.latlong.net)
-humandate: "Feb 19, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Feb 19-20, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate1: "Feb 19, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humandate2: "Feb 20, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm GMT"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-02-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -149,8 +150,8 @@ address.
 {% assign online = "false" %}
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
-<p id="where">
-  <strong>Where on {{page.humandate}}:</strong>
+<p id="where1">
+  <strong>Where on {{page.humandate1}}:</strong>
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
@@ -185,9 +186,9 @@ DATE
 This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
-<p id="when">
+<p id="when1">
   <strong>When:</strong>
-  {{page.humandate}}.
+  {{page.humandate1}}.
   {% include workshop_calendar.html %}
 </p>
 <p id="when2">
