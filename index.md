@@ -10,8 +10,8 @@ country: "United Kingdom"      # lowercase two-letter ISO country code such as "
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "51.752710"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1.251070"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-latitude2: "51.754250"        # decimal latitude of the second workshop venue (use https://www.latlong.net/)
-longitude2: "-1.257810"       # decimal longitude of the second workshop venue (use https://www.latlong.net)
+latitude2: "51.7548201"        # decimal latitude of the second workshop venue (use https://www.latlong.net/)
+longitude2: "-1.254891"       # decimal longitude of the second workshop venue (use https://www.latlong.net)
 humandate: "Feb 19-20, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humandate1: "Feb 19, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humandate2: "Feb 20, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
